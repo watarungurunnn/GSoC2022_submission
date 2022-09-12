@@ -1,5 +1,12 @@
 # GSoC2022_submission
 
+## Our (future) goal
+* Automated high throughput cell tracking by GNN
+
+## Motivations
+* Cell tracking of organisms will help us understand the mechanisms under development and cell-cell interactions.
+* Cells exist in relationships with each other, so the cell location are affected by topological factors, which might be expressed by graph and GNN.
+
 ## What was done
 1. Searched for previous researches and discussed with the mentors and contributors which graph expression and GNN structure are effective for cell tracking.
 2. Refactored inference part of the source codes of: Ben-Haim, T. & Riklin-Raviv, T. Graph Neural Network for Cell Tracking in Microscopy Videos. Preprint at http://arxiv.org/abs/2202.04731 (2022).
@@ -11,15 +18,22 @@
 Our project has started as a research project and we spent a lot of time searching for previous researches and discussing which features of the target cells and which type of GNN structure are useful for effectively capture the development of organisms.
 Here I summarize current idea about the characteristics of the cells, difficulties, and realistic approach.
 
-Future plan:
-* Apply to cell tracking Spatio-Temporal Graph Transformer used for tasks such as pedestrian tracking.
-  * reference: Yu, C., Ma, X., Ren, J., Zhao, H. & Yi, S. Spatio-Temporal Graph Transformer Networks for Pedestrian Trajectory Prediction. Preprint at https://doi.org/10.48550/arXiv.2005.08514 (2020).
-  *
-
-
-:
+Characteristics:
 * Each cell occupies some spaces and the locations of the centroids are decided by interactions between nearby cells.
 * These interactions are assumed to be expressed by edges of the graphs, while the centroids of the cells are expressed by nodes.
+
+Difficulties:
+* The mitosis, overlaps and occlusions, visual similarity, change in appearance make it difficult to accurately identify the cells.
+* Cell dynamics appear completely random, while pedestrians and cars have somehow fixed directions.
+* The features of the microscopy videos vary so much that complex preprocessing is necessary for each of the datasets.
+* Manual annotations are required to obtain training datasets, so few datasets are available.
+
+Future plan:
+* Apply to cell tracking Spatio-Temporal Graph Transformer used for tasks such as pedestrian tracking.
+  * Pedestrian keeps some distance from each other, which could be an analogy of the fact that cell nucleus keep distance from each other, separated by membrane.
+  * As mentioned above, The mitosis and overlaps make it more difficult than other tracking tasks.
+  * Reference: Yu, C., Ma, X., Ren, J., Zhao, H. & Yi, S. Spatio-Temporal Graph Transformer Networks for Pedestrian Trajectory Prediction. Preprint at https://doi.org/10.48550/arXiv.2005.08514 (2020).
+
 
 ### 2. Refactored inference part of the source codes of: Ben-Haim, T. & Riklin-Raviv, T. Graph Neural Network for Cell Tracking in Microscopy Videos. Preprint at http://arxiv.org/abs/2202.04731 (2022).
 - Added [codes for segmentation](https://github.com/watarungurunnn/cell-tracker-gnn/tree/main/src/inference/segmentation) to enable users to make graph from the source video datasets. [PR under review](https://github.com/jianglonghui/cell-tracker-gnn/pull/1)
