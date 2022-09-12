@@ -20,5 +20,7 @@ The main points are:
 https://github.com/LspongebobJH/DevoGraph/commit/eac3368a6d9d4e982b2583cd6a1b23bbcc641f3d
 
 ### 4. Fixed bugs of external modules. 
-- Installed package from the pip could not used as written in README.md, so added instruction to install from the source. [PR](https://github.com/DevoLearn/devolearn/pull/73)
-- Fixed wrong URL of the provided trained model. [PR](https://github.com/DevoLearn/devolearn/pull/67)
+- Installed package from the pip could not used as written in README.md, so added instruction to install from the source. [PR under review](https://github.com/DevoLearn/devolearn/pull/73)
+- Fixed wrong URL of the provided trained model. [PR merged](https://github.com/DevoLearn/devolearn/pull/67)
+- Fixed regionprops of scikit-image to consider negative value very close to 0 to be 0. [Commit on Folk](https://github.com/scikit-image/scikit-image/commit/dede59c19817bceccf80de8eb59eb29db746e1c5)
+  - This change was needed to run the cell-tracking-gnn on 3D datasets.
