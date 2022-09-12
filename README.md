@@ -10,12 +10,13 @@
 ## What was done
 1. Searched for previous researches and discussed with the mentors and contributors which graph expression and GNN structure are effective for cell tracking.
 2. Refactored inference part of the source codes of: Ben-Haim, T. & Riklin-Raviv, T. Graph Neural Network for Cell Tracking in Microscopy Videos. Preprint at http://arxiv.org/abs/2202.04731 (2022).
-3. Implemented preprocessing 3D microscopy videos of C.elegans into centroids graph by devolearn.
-4. Fixed bugs of external modules.
+4. Implemented preprocessing 3D microscopy videos of C.elegans into centroids graph by devolearn.
+5. Fixed bugs of external modules.
 
 ## Details of what was done
 ### 1. Searched for previous researches and discussed with the mentors and contributors which graph expression and GNN structure are effective for cell tracking.
 Our project has started as a research project and we spent a lot of time searching for previous researches and discussing which features of the target cells and which type of GNN structure are useful for effectively capture the development of organisms.
+We had many difficulties in the preprocessing part, so ran out of time to implement and test GNNs.
 Here I summarize current idea about the characteristics of the cells, difficulties, and realistic approach.
 
 Characteristics:
