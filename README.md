@@ -8,7 +8,8 @@
 
 ## Details of what was done
 ### 1. Searched for previous researches and discussed with the mentors and contributors which graph expression and GNN structure are effective for cell tracking.
-Our goal has been to create GNN which can effectively capture the features of the cells and simulate development of organisms.
+Our goal has been to capture the features of the cells and simulate development of organisms by GNN.
+
 The main points are:
 * Each cell occupies some spaces and the locations of the centroids are decided by interactions between nearby cells.
 * These interactions are assumed to be expressed by edges of the graphs, while the centroids of the cells are expressed by nodes.
