@@ -36,7 +36,7 @@ Future plan:
 
 
 ### 2. Refactored inference part of the source codes of: Ben-Haim, T. & Riklin-Raviv, T. Graph Neural Network for Cell Tracking in Microscopy Videos. Preprint at http://arxiv.org/abs/2202.04731 (2022).
-- Added [codes for segmentation](https://github.com/watarungurunnn/cell-tracker-gnn/tree/main/src/inference/segmentation) to enable users to make graph from the source video datasets. [PR under review](https://github.com/jianglonghui/cell-tracker-gnn/pull/1) (-> [screenshot]())
+- Added [codes for segmentation](https://github.com/watarungurunnn/cell-tracker-gnn/tree/main/src/inference/segmentation) to enable users to make graph from the source video datasets. [PR under review](https://github.com/jianglonghui/cell-tracker-gnn/pull/1) (-> [screenshot](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2020.00.27%20PM.png))
   - The cell-tracker-gnn lacked examples of segmentation process so it was difficult for end-users to try inference from videos.
 - Refactored [inference part](https://github.com/watarungurunnn/cell-tracker-gnn/tree/main/src/inference) of the source code to make it easy for end-users to use the trained model to make graph from microscopy videos. [PR under review](https://github.com/jianglonghui/cell-tracker-gnn/pull/1) (-> [screenshot](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2020.00.27%20PM.png)
   - Defined config file for inference part to allow users to easily input minimum amount of parameters required for inference.
