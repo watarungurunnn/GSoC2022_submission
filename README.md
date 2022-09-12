@@ -48,11 +48,10 @@ Future plan:
   - [PR merged](https://github.com/LspongebobJH/DevoGraph/pull/1), [PR under review](https://github.com/LspongebobJH/DevoGraph/pull/5) (-> [screenshot](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2016.38.59%20PM.png))
 - The commits are listed [here](https://github.com/DevoLearn/devolearn/pull/74).   (-> [screenshot](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2011.45.27.png))
 
-https://github.com/LspongebobJH/DevoGraph/commit/eac3368a6d9d4e982b2583cd6a1b23bbcc641f3d
 
 ### 4. Fixed bugs of external modules.
-- devolearn - Installed package from the pip could not used as written in README.md, so added instruction to install from the source. [PR under review](https://github.com/DevoLearn/devolearn/pull/73)
-- devolearn - Fixed wrong URL of the provided trained model. [PR merged](https://github.com/DevoLearn/devolearn/pull/67)
+- devolearn - Installed package from the pip could not used as written in README.md, so added instruction to install from the source. [PR under review](https://github.com/DevoLearn/devolearn/pull/73) (-> [screenshot](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2019.48.13%20PM.png)
+- devolearn - Fixed wrong URL of the provided trained model. [PR merged](https://github.com/DevoLearn/devolearn/pull/67/commits/55356cdbdcd0d89e16631f883b40b0cc35f1ca13)
 - scikit-image - Fixed a function of "regionprops" of scikit-image, which requires non-negative input, to consider negative value input very close to 0 to be 0. [Folk](https://github.com/scikit-image/scikit-image/commit/dede59c19817bceccf80de8eb59eb29db746e1c5)
   - The negative values appeared to be computational error.
   - This change was needed to run the cell-tracking-gnn on 3D datasets.
