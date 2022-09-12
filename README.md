@@ -18,3 +18,7 @@ The main points are:
 - The commits are listed [here](https://github.com/DevoLearn/devolearn/pull/74).   (-> [screenshot](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2011.45.27.png))
 
 https://github.com/LspongebobJH/DevoGraph/commit/eac3368a6d9d4e982b2583cd6a1b23bbcc641f3d
+
+### 4. Fixed bugs of external modules. 
+- Installed package from the pip could not used as written in README.md, so added instruction to install from the source. [PR](https://github.com/DevoLearn/devolearn/pull/73)
+- Fixed wrong URL of the provided trained model. [PR](https://github.com/DevoLearn/devolearn/pull/67)
