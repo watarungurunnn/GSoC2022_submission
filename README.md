@@ -8,7 +8,10 @@
 
 ## Details of what was done
 ### 1. Searched for previous researches and discussed with the mentors and contributors which graph expression and GNN structure are effective for cell tracking.
-**draft**
+Our goal has been to create GNN which can effectively capture the features of the cells and simulate development of organisms.
+The main points are:
+* Each cell occupies some spaces and the locations of the centroids are decided by interactions between nearby cells.
+* These interactions are assumed to be expressed by edges of the graphs, while the centroids of the cells are expressed by nodes.
 
 ### 2. Implemented preprocessing 3D microscopy videos of C.elegans into centroids graph by devolearn.
 - The commits are listed [here](https://github.com/DevoLearn/devolearn/pull/74). 
