@@ -15,6 +15,6 @@ The main points are:
 * These interactions are assumed to be expressed by edges of the graphs, while the centroids of the cells are expressed by nodes.
 
 ### 2. Implemented preprocessing 3D microscopy videos of C.elegans into centroids graph by devolearn.
-- The commits are listed [here](https://github.com/DevoLearn/devolearn/pull/74). For fixed archive, [screenshots](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2011.45.27.png)
+- The commits are listed [here](https://github.com/DevoLearn/devolearn/pull/74).   -> [screenshots](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2011.45.27.png)
 
 https://github.com/LspongebobJH/DevoGraph/commit/eac3368a6d9d4e982b2583cd6a1b23bbcc641f3d
