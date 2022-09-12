@@ -46,7 +46,7 @@ Future plan:
 ### 3. Implemented preprocessing 3D microscopy videos of C.elegans into centroids graph by devolearn.
 - [Reported](https://github.com/LspongebobJH/DevoGraph/blob/wataru/stage_1/stage_1/stage_1.ipynb) ([commit](https://github.com/LspongebobJH/DevoGraph/commit/4b88c23f2fb9c4da7f633de5a94f946d4176d46e)) that devolearn does not generalize to other datasets. -> future work
   - [PR merged](https://github.com/LspongebobJH/DevoGraph/pull/1), [PR under review](https://github.com/LspongebobJH/DevoGraph/pull/5) (-> [screenshot1](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2016.38.59%20PM.png))(-> [screenshot2](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2019.55.45%20PM.png)
-- The commits are listed [here](https://github.com/DevoLearn/devolearn/pull/74).   (-> [screenshot](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2011.45.27.png))
+- Added devolearn nucleus segmentor for video. [here](https://github.com/DevoLearn/devolearn/pull/74).   (-> [screenshot](https://github.com/watarungurunnn/GSoC2022_submission/blob/main/Screen%20Shot%202022-09-12%20at%2011.45.27.png))
 
 
 ### 4. Fixed bugs of external modules.
